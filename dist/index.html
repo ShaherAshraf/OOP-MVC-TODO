@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MVC OOP TodoList</title>
+    <link rel="stylesheet" href="./assets/main.css" />
+    <link rel="shortcut icon" href="./assets/shorcut_icon.svg" type="image/x-icon" />
+  </head>
+  <body class="bg-neutral-800">
+    <section class="section text-center sm:w-3/4 lg:w-1/2 mt-32 mx-auto p-2">
+      <h1 class="text-6xl mb-8">📋</h1>
+      <h2 class="section__title text-teal-400 text-6xl mb-8">Let's Start Adding Todos!</h2>
+      <div class="section__content">
+        <form class="form w-3/4 mx-auto mb-10">
+          <input type="text" class="form__input w-1/2 sm:w-3/4 py-2 px-4 rounded-md focus:outline-teal-400" placeholder="Add todo" />
+          <button type="submit" class="form__button py-2 px-4 rounded-md bg-neutral-200 hover:bg-neutral-300">Submit</button>
+        </form>
+        <ul class="list">
+          <!-- <li class="list__item" id="${todo?.id}">
+            <input ${todo?.complete ? 'checked' : ''} class="list__item__check mx-2" type="checkbox" />
+            <input class="list__item__input ${todo?.complete ? 'checked' : ''} py-1 px-4 w-1/2 lg:w-1/2 rounded-md mr-2 focus:outline-teal-400" value="${todo?.text}" type="text" />
+            <button class="list__item__delete py-1 px-4 rounded-md cursor-pointer bg-neutral-200 hover:bg-neutral-300">Delete</button>
+          </li> -->
+        </ul>
+      </div>
+    </section>
+    <script src="./assets/bundle.js"></script>
+  </body>
+</html>
