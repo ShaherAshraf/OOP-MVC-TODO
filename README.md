@@ -1,4 +1,4 @@
-# TodoList - OOP, MVC JS Todo App.
+# TodoList - OOP, MVC JS Todo App. 📋
 
 This is an object-oriented javascript to-do list app using the MVC architecture. 
 
